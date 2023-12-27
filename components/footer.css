@@ -1,0 +1,8 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 170px;
+    gap: 20px;
+    background-color: var(--clr-dark-grey);
+}

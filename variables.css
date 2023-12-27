@@ -1,0 +1,27 @@
+:root {
+
+    /* COLORS */
+    --clr-black: #151515;
+    --clr-green: #4EE1A0;
+    --clr-dark-grey: #242424;
+    --clr-grey: #D9D9D9;
+    --clr-white: #FFFFFF;
+
+
+    /* FONT FAMILY */
+    --ff: 'Space Grotesk';
+
+
+    /* HEADINGS */
+    --heading-xl: 5.5rem;
+    --heading-xl-line-height: 5.5rem;
+    --heading-xl-char-spacing: -0.15625rem;
+    --heading-l: 3rem;
+    --heading-m: 1.5rem;
+
+    /* FONT SIZE */
+    --fs-small: 1rem;
+    --fs-medium: 1.125rem;
+    --fs-large: 2rem;
+    --fs-extra-large: 2.5rem;
+}

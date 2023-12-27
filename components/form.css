@@ -1,0 +1,52 @@
+input, textarea {
+    background-color: unset;
+    border: 0;
+    font-family: var(--ff);
+    font-size: var(--fs-small);
+    text-transform: uppercase;
+    min-height: 43px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    color: white;
+}
+
+textarea {
+    height: 107px;
+    resize: none;
+}
+
+
+input::placeholder, textarea::placeholder {
+    padding-left: 24px;
+
+}
+
+input[type="submit"] {
+    width: 45%;
+    align-self: flex-end;
+    color: var(--clr-white);
+}
+form {
+    margin-block: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+}
+
+input::placeholder, textarea::placeholder {
+    padding-left: 24px;
+
+}
+
+input[type="submit"] {
+    width: 45%;
+    align-self: flex-end;
+    color: var(--clr-white);
+}
+
+input:not([type="submit"]):focus-visible, textarea:focus-visible {
+    /* BAD PRACTICE NEVER REMOVE OUTLINE FROM FOCUS */
+    outline: none;
+    border-bottom: 1px solid var(--clr-green);
+}

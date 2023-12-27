@@ -1,0 +1,15 @@
+a, input[type="submit"] {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2.286px;
+    display: inline-block;
+    height: 30px;
+    border-bottom: 2px solid var(--clr-green);
+    transition: 0.2s ease-in;
+}
+
+
+a:hover, input[type="submit"]:hover {
+    color: var(--clr-green);
+    cursor: pointer;
+}

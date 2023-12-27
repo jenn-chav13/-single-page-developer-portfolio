@@ -1,0 +1,115 @@
+section {
+    padding-inline: 15px;
+    margin-bottom: 80px;
+}
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+/* INTRODUCTION SECTION */
+.introduction {
+    text-align: center;
+}
+
+.introduction .name {
+    border-bottom: 4px solid var(--clr-green);
+    box-sizing: content-box;
+    display: inline-block;
+    height: 44px;
+}
+
+.introduction p {
+    line-height: 26px;
+}
+
+
+/* EXPERIENCE SECTION */
+
+.experience .container {
+    position: relative;
+}
+
+.experience .container::before {
+    content: url("../assets/images/pattern-rings.svg");
+    position: absolute;
+    top: 539px;
+    left: 189px;
+}
+.experience span {
+    color: var(--clr-white);
+}
+
+.skill-list {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    padding: 40px 0;
+    border-block: 1px solid var(--clr-white);
+
+}
+
+.skill-list span {
+    display: block;
+    font-size: var(--fs-large);
+}
+
+
+/* PROJECTS SECTION */
+.section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-card {
+    width: 345px;
+    margin: 40px auto;
+    display: block;
+}
+
+.project-card h3 {
+    font-size: var(--heading-m);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.project-card ul {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.project-card-skills {
+    font-size: var(--fs-medium);
+    text-transform: uppercase;
+}
+
+
+/* CONTACT SECTION */
+.contact {
+    background-color: var(--clr-dark-grey);
+    padding-block: 40px;
+    text-align: center;
+}
+
+.contact .container {
+    position: relative;
+}
+
+.contact .container::before {
+    content: url("../assets/images/pattern-rings.svg");
+    position: absolute;
+    top: 368px;
+    right: 188px;
+}
+
+.contact p {
+    text-align: center;
+}
+
+section.contact {
+    margin-bottom: 0;
+}
